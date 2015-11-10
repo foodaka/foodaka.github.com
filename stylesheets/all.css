@@ -6,6 +6,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 /* line 9, /Users/markhinschberger/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -7266,11 +7267,23 @@ h1 {
   margin: 0; }
 
 /* line 25, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+h2 {
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  color: black; }
+
+/* line 31, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+h3 {
+  color: gray;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 37, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .doc {
   font-size: 14px;
   margin: 0; }
 
-/* line 28, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 40, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .doc:before,
 .doc:after {
   opacity: .2;
@@ -7279,15 +7292,15 @@ h1 {
   position: relative;
   content: "•"; }
 
-/* line 35, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 47, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .doc a {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 37, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 49, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .doc a:hover {
   color: #666; }
 
-/* line 40, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 52, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }
@@ -7308,7 +7321,7 @@ h1 {
 /*.index-landing{
   padding-top: 350px;
 }*/
-/* line 67, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 79, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .landing-photo {
   background-repeat: no-repeat;
   background-position: 50%;
@@ -7320,17 +7333,17 @@ h1 {
 /*Navbar*/
 /*added from previous project top 2
 */
-/* line 81, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 93, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .navbar {
   height: 50px;
   color: white;
   display: inline-block; }
 
-/* line 86, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 98, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: black; }
 
-/* line 90, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 102, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .navbar-default {
   background-color: #fff;
   border: none;
@@ -7339,7 +7352,7 @@ h1 {
   color: black; }
 
 /*cursor for blinker*/
-/* line 102, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 114, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
@@ -7368,7 +7381,7 @@ h1 {
   100% {
     opacity: 1; } }
 /*Added from typedjs*/
-/* line 128, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 140, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 * {
   padding: 0;
   margin: 0; }
@@ -7378,28 +7391,29 @@ h1 {
   font-size: 100%;
   background:#f8f8f8;
 }*/
-/* line 140, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 152, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 a {
   text-decoration: none;
   color: #666; }
 
-/* line 144, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 156, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 a:hover {
   color: #999; }
 
-/* line 147, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 159, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 p {
   line-height: 2em;
   margin: 0 0 20px;
   text-align: center; }
 
-/* line 153, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 165, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .wrap {
+  height: 100px;
   max-width: 600px;
   margin: 150px auto;
   margin-bottom: 20px; }
 
-/* line 159, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 172, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .type-wrap {
   font-family: "Lucida Grande", sans-serif;
   font-size: 21px;
@@ -7409,13 +7423,13 @@ p {
   border-radius: 5px;
   border: #CCC 1px solid; }
 
-/* line 169, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 182, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .links {
   margin: 20px 0;
   font-size: 0.75em;
   text-align: center; }
 
-/* line 175, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 188, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 .title-bar {
   padding: 5px 0;
   font-family: "Lucida Grande", sans-serif;
@@ -7431,6 +7445,16 @@ p {
 
 /*for icons
 */
-/* line 191, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+/* line 204, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
 i {
   margin: 0 2rem; }
+
+/* line 210, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+.index-space {
+  margin-top: 90px; }
+
+/* line 214, /Users/markhinschberger/code/my-site/source/stylesheets/all.css.scss */
+.font-index > h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  margin-top: 30px; }
