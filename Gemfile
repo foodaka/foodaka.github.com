@@ -18,3 +18,4 @@ gem "jquery-middleman"
 gem 'middleman-bootstrap-navbar'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'font-awesome-middleman'
+gem 'middleman-deploy', '~> 1.0'

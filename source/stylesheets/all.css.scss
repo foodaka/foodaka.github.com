@@ -22,6 +22,18 @@ h1 {
   /*padding: 350px 0 10px;*/
   margin: 0; }
 
+h2 {
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;  font-size: 48px;
+  color: black;
+}  
+
+h3{
+  color:gray;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
 .doc {
   font-size: 14px;
   margin: 0; }
@@ -151,6 +163,7 @@ p{
 }
 
 .wrap{
+  height:100px;
   max-width: 600px;
   margin:150px auto;
   margin-bottom: 20px;
@@ -191,4 +204,18 @@ p{
 */i{
   margin: 0 2rem;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.index-space{
+  margin-top: 90px;
+}
+
+.font-index > h2{
+  font-family: 'Open Sans', sans-serif;  font-size: 32px;
+  margin-top: 30px;
+}
+
+
+
 
