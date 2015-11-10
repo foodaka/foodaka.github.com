@@ -45,6 +45,8 @@ GEM
     eventmachine (1.0.8)
     execjs (2.6.0)
     ffi (1.9.10)
+    font-awesome-middleman (4.4.1)
+      middleman-core (~> 3.0)
     gem_config (0.3.1)
     haml (4.0.7)
       tilt
@@ -144,6 +146,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  font-awesome-middleman
   haml (~> 4.0, >= 4.0.7)
   jquery-middleman
   middleman (~> 3.4.0)
