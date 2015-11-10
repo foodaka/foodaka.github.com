@@ -1,0 +1,188 @@
+
+@charset "utf-8";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body {
+  padding-top: 50px;
+
+  background: #fff;
+  text-align: center;
+  font-family: sans-serif; }
+
+h1 {
+  color: rgba(0, 0, 0, .3);
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  background: url("../images/profile.png") no-repeat center 100px;
+  /*padding: 350px 0 10px;*/
+  margin: 0; }
+
+.doc {
+  font-size: 14px;
+  margin: 0; }
+  .doc:before,
+  .doc:after {
+    opacity: .2;
+    padding: 6px;
+    font-style: normal;
+    position: relative;
+    content: "•"; }
+  .doc a {
+    color: rgba(0, 0, 0, 0.3); }
+    .doc a:hover {
+      color: #666; }
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s; }
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+/*.index-landing{
+  padding-top: 350px;
+}*/
+
+.landing-photo{
+   background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+
+}
+
+/*Navbar*/
+/*added from previous project top 2
+*/
+
+.navbar{
+  height:50px;
+  color:white;
+  display: inline-block;
+}
+.navbar-inverse .navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border:none;
+  font-family: "consolas";
+  font-weight: bold;
+  color:black;
+}
+
+.navbar-brand{
+  color:black;
+}
+
+
+
+
+/*cursor for blinker*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+/*Added from typedjs*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+*{
+  padding:0;
+  margin:0;
+}
+
+/*body{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 100%;
+  background:#f8f8f8;
+}*/
+
+
+a{
+  text-decoration: none;
+  color:#666;
+}
+  a:hover{
+    color:#999;
+  }
+p{
+  line-height: 2em;
+  margin:0 0 20px;
+  text-align: center;
+}
+
+.wrap{
+  max-width: 600px;
+  margin:150px auto;
+}
+
+.type-wrap{
+  color:#fff;
+  padding:20px;
+  background:rgba(0, 0, 0, 0.85);
+  border-radius:5px;
+  border:#CCC 1px solid;
+}
+
+.links{
+  margin:20px 0;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.title-bar{
+  padding: 5px 0;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 0.75em;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+  background-color: #f8f8f8;
+  background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+  background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
+  background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
+  box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+  border-bottom: #6a6a6a 1px solid;
+}
