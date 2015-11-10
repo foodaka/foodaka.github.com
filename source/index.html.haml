@@ -45,12 +45,18 @@ title: Welcome to Middleman
 
 .row
   .col-md-12
-    #share
-    %script{:src => "javascripts/jssocials.min.js"}
-    :javascript
-      $("#share").jsSocials({
-          shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest"]
-      });
+    %a{:href => "https://github.com/foodaka"}
+      %i.fa.fa-github.fa-3x
+    %a{:href => "mailto:markhinschberger@gmail.com"}
+      %i.fa.fa-envelope.fa-3x
+    %a{:href => "https://tw.linkedin.com/in/mark-hinschberger-3370962b"} 
+      %i.fa.fa-linkedin.fa-3x
+    / #share
+    / %script{:src => "javascripts/jssocials.min.js"}
+    / :javascript
+    /   $("#share").jsSocials({
+    /       shares: ["email", "linkedin", ]
+    /   });
  
 
 / %script{:src => "javascripts/socialProfiles.js"}
