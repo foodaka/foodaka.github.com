@@ -50,7 +50,7 @@
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
-set :fonts_dir,  "fonts-awesome"
+set :fonts_dir,  "font-awesome"
 set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
