@@ -54,6 +54,10 @@ set :fonts_dir,  "font-awesome"
 set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
+<<<<<<< HEAD
+=======
+
+>>>>>>> 666d4790c6803ac620fe2416c298257995ca5bd6
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
@@ -70,3 +74,15 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+<<<<<<< HEAD
+=======
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
+  deploy.build_before = true
+end
+
+activate :directory_indexes
+
+>>>>>>> 666d4790c6803ac620fe2416c298257995ca5bd6
