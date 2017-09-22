@@ -2,7 +2,7 @@
   "name": "mark-hinschberger",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://foodaka.github.io/my-app",
+  "homepage": "http://foodaka.github.io/mark-hinschberger",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
